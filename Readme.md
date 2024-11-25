@@ -5,12 +5,12 @@ This project analyzes coffee sales data to uncover customer preferences, revenue
 ## Dataset
 The dataset used in this project contains 2341 transactions, including the following fields:
 
-**date**: Transaction date.
-**datetime**: Full timestamp of the transaction.
-**cash_type**: Payment method (e.g., cash or card).
-**card**: Anonymized card details for card transactions.
-**money**: Revenue from the transaction.
-**coffee_name**: Type of coffee purchased.
+1. **date**: Transaction date.
+2. **datetime**: Full timestamp of the transaction.
+3. **cash_type**: Payment method (e.g., cash or card).
+4. **card**: Anonymized card details for card transactions.
+5. **money**: Revenue from the transaction.
+6. **coffee_name**: Type of coffee purchased.
 
 ## Project Objectives
 
@@ -37,13 +37,20 @@ Recommendations for inventory management, pricing strategies, and marketing camp
 ## Requirements
 To run this project, ensure you have the following installed:
 
-Python (>= 3.7)
-Pandas
-Numpy
-Matplotlib
-Seaborn
-Jupyter Notebook (optional, for running the .ipynb file)
+1. Python (>= 3.7)
+2. Pandas
+3. Numpy
+4. Matplotlib
+5. Seaborn
+6. Jupyter Notebook (optional, for running the .ipynb file)
+
 Install the required libraries using:
 ```
 pip install -r requirements.txt
-````
+```
+
+## Project Structure
+
+1. **Coffee_sales.ipynb**: Jupyter Notebook containing the code, visualizations, and analysis.
+2. **index.csv**: Dataset used for the analysis.
+3. **requirements.txt**: List of required Python libraries.
